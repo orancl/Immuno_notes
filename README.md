@@ -9,7 +9,7 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
+- [Pipelines](#pipelines)
 - [Deconvolution](#deconvolution)
   - [Stand-alone tools](#stand-alone-tools)
   - [Web-based tools](#web-based-tools)
@@ -19,6 +19,13 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 - [Misc Notes](#misc-notes)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Pipelines
+
+- [nf-core/airrflow](https://github.com/nf-core/airrflow) - an adaptive immune receptor repertoire (AIRR) analysis workflow, the Immcantation framework wrapper. B-cell and T-cell repertoire sequencing data, bulk (FASTQ) and single-cell (cellranger). QC, sequence assembly, VDJ annotation, clonal inference, reporting. Benchmarked on simulated and experimental (COVID) data against MiXCR. <details>
+    <summary>Paper</summary>
+    Gabernet, Gisela, Susanna Marquez, Robert Bjornson, Alexander Peltzer, Hailong Meng, Edel Aron, Noah Y Lee, Cole Jensen, David Ladd, and Friederike Hanssen. “Nf-Core/Airrflow: An Adaptive Immune Receptor Repertoire Analysis Workflow Employing the Immcantation Framework,” n.d.
+</details>
 
 ## Deconvolution
 
